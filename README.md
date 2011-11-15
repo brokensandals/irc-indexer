@@ -1,6 +1,6 @@
 # irc-indexer
 
-An IRC logger bot that indexes its logs in an [elasticsearch](elasticsearch.org) index.
+An IRC logger bot that indexes its logs in an [elasticsearch](http://elasticsearch.org) index.
 
 A web app for viewing/searching the logs is in progress.
 
