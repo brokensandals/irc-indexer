@@ -1,0 +1,10 @@
+{:index {:url "http://localhost:9200/irc"
+         :transcript-size 25
+         :update-interval 15} ;seconds
+ :irc {:server "" ;replace with e.g. "irc.freenode.net"
+       :port 6667
+       :bot-nick "irc-indexer"
+       :channels [] ;replace with e.g. ["#optimism" "#pessimism"]
+       :log "irc.log"
+       :announcement "" ;replace with text to display when joining a room
+       :help ""}} ;replace with text to respond to direct messages with
